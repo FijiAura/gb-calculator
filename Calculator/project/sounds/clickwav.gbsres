@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "fcc6b86c-1d2b-4532-9607-fb2d6a077da3",
+  "name": "click.wav",
+  "symbol": "sound_click_wav",
+  "filename": "click.wav",
+  "type": "wav"
+}

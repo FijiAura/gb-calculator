@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "068807ae-f96e-479f-b3d8-73d42d68d10e",
+  "name": "tada.wav",
+  "symbol": "sound_tada_wav",
+  "filename": "tada.wav",
+  "type": "wav"
+}

@@ -1,0 +1,85 @@
+{
+  "_resourceType": "script",
+  "id": "0a36c7c6-3926-4ba2-a71b-c8d0e8af5a74",
+  "name": "InputNumber",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Number to Input",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "eb9c0b4c-81b0-46cd-bb26-5dc2c959d22d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "expression",
+            "value": "$01$ == 0 && $02$ <= 1"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "variable",
+                "value": "2"
+              }
+            },
+            "id": "0be4b0ac-c668-457e-a761-414d70c6ba4f"
+          }
+        ],
+        "false": []
+      },
+      "id": "95b75799-a843-462c-9c14-cba0ef0b9c42"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "variable",
+          "value": "V0"
+        }
+      },
+      "id": "5aead432-756a-405b-96bb-4c611077681c"
+    }
+  ]
+}

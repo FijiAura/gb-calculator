@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "39027143-67fd-4b29-8715-65f3ebe578cb",
+  "name": "calc",
+  "symbol": "bg_pixil_frame_23_0",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "calc.png",
+  "tileColors": "01168+",
+  "autoColor": false
+}

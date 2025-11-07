@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a46eb08d-5b36-4977-b20f-661fab105b70",
+  "name": "logo",
+  "symbol": "bg_pixil_frame_0_23_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "logo.png",
+  "tileColors": "006d+01!00fa+",
+  "autoColor": false
+}
